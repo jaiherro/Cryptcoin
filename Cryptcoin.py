@@ -1,5 +1,5 @@
-#Copyright © Jai Herro 2018
-#Special thanks to Joel Donnelly for all his help.
+#Copyright © --- 2018
+#Special thanks to --- for all --- help.
 #Cryptcoin 5.6
 #GUI 2.4
 
@@ -122,9 +122,9 @@ The email box is optionally used if the user would like to be emailed, it is not
 The radio buttons below it can be used to specify whether you would like to be notified when it rises or falls past your amount.
 The save button must be used to submit and check your notification input amount the first time, and any other time you should need to update it.
 
-Special thanks to Joel Donnelly for his help throughout the project.
+Special thanks to --- for --- help throughout the project.
 
-Created by Jai Herro, May 2018.""", "Help and Info", False, None)).pack(side=tk.LEFT, padx=5, pady=2)
+Created by ---, May 2018.""", "Help and Info", False, None)).pack(side=tk.LEFT, padx=5, pady=2)
 
         self.windowWidth = 150 #Sets the window width to a default of 150.
         self.windowHeight = 225 #and the height to a default of 175.
