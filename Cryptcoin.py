@@ -173,9 +173,8 @@ def popupmsg(msg, title, terminate, timeout): #This is the universal popupmsg fu
 
     popup.mainloop()
 
-### SUPPORT CLASS FOR GUI ### - This is used to dynamically create the buttons, the intial solution to this concept was created by Joel Donnely.
+### SUPPORT CLASS FOR GUI ### - This is used to dynamically create the buttons, the intial solution to this concept was created by ---.
 class ButtonClass ():
-    def __init__(self, coin, root):
         self.name = coin
         self.button = ttk.Button(root, text = coin, command = self.RunGui) #Makes the button with the passed values.
 
