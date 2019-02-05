@@ -9,5 +9,5 @@ A very stable project written in Python 3 on collecting and displaying cryptocur
 - Custom currencies
 - Email notifications (Based on price threshold set by user)
 
-#Dependencies
+### Dependencies
 - Matplotlib
