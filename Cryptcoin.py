@@ -1,11 +1,10 @@
-#Copyright © --- 2018
-#Special thanks to --- for all --- help.
+#Special thanks to --- for all his help.
 #Cryptcoin 5.6
 #GUI 2.4
 
-### IMPORT STAGE ### - Tries to import all the dependencies and catches any error if the user doesn't have them.
+### IMPORT ### - Import all the dependencies and catches any error if the user doesn't have them.
 
-try: #Splash screen, a try method is used in case the ASCII art cannot be displayed.
+try: #Splash screen, a try method is used in case the art cannot be displayed.
     print("""
                                  Welcome to
 
@@ -17,9 +16,8 @@ try: #Splash screen, a try method is used in case the ASCII art cannot be displa
      ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝
 """)
 except:
-    print("Welcome to Cryptcoin.")
-    print()
-
+    print("Welcome to Cryptcoin."\n)
+    
 try: #Import all dependencies and if one does not exist, inform user in the proper format.
     import time
     import os
@@ -253,7 +251,7 @@ class ButtonClass ():
             ani = animation.FuncAnimation(fig, animate, interval=1000)
             plt.show()
 
-### COLLECTION PHASE ###
+### COLLECTION ###
 def Collect():
     def Currencies():
         Previous = {}
@@ -408,7 +406,7 @@ def Check():
     try: #Tests the email server connection.
         server = smtplib.SMTP('smtp.gmail.com:587')
         server.starttls()
-        server.login('Cryptcoin.Notifications@gmail.com', 'cryptcoincryptcoin')
+        server.login('Cryptcoin.Notifications@gmail.com', 'cryptcoincryptcoin') # Don't even ask. Just want to finish this project, storing in plain text is the least of my concerns.
         server.quit()
         success += 1
         print("{0}: Success - Email connection successful.".format(time.strftime("%I:%M:%S")))
