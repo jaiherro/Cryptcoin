@@ -16,7 +16,7 @@ try: #Splash screen, a try method is used in case the art cannot be displayed.
      ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝
 """)
 except:
-    print("Welcome to Cryptcoin."\n)
+    print("Welcome to Cryptcoin.\n")
     
 try: #Import all dependencies and if one does not exist, inform user in the proper format.
     import time
