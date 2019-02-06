@@ -1,4 +1,4 @@
-#Special thanks to --- for all his help.
+#Thanks to --- for all his help.
 #Cryptcoin 5.6
 #GUI 2.4
 
