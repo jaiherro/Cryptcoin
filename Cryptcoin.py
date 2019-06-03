@@ -6,8 +6,6 @@
 
 try: #Splash screen, a try method is used in case the art cannot be displayed.
     print("""
-                                 Welcome to
-
      ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗ ██████╗ ██╗███╗   ██╗
     ██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔════╝██╔═══██╗██║████╗  ██║
     ██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║   ██║     ██║   ██║██║██╔██╗ ██║
@@ -17,7 +15,7 @@ try: #Splash screen, a try method is used in case the art cannot be displayed.
 """)
 except:
     print("Welcome to Cryptcoin.\n")
-    
+
 try: #Import all dependencies and if one does not exist, inform user in the proper format.
     import time
     import os
@@ -171,8 +169,9 @@ def popupmsg(msg, title, terminate, timeout): #This is the universal popupmsg fu
 
     popup.mainloop()
 
-### SUPPORT CLASS FOR GUI ### - This is used to dynamically create the buttons, the intial solution to this concept was created by ---.
-class ButtonClass ():
+### SUPPORT CLASS FOR GUI ### - This is used to dynamically create the buttons, the idea was by ---.
+class ButtonClass():
+    def __init__(self, coin, root):
         self.name = coin
         self.button = ttk.Button(root, text = coin, command = self.RunGui) #Makes the button with the passed values.
 
