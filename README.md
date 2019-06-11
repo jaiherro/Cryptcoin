@@ -11,3 +11,7 @@ A very stable project written in Python 3 on collecting and displaying cryptocur
 
 ### Dependencies
 - Matplotlib
+
+```
+pip install matplotlib
+```
