@@ -1,4 +1,3 @@
-#Thanks to --- for all his help.
 #Cryptcoin 5.6
 #GUI 2.4
 
@@ -169,7 +168,7 @@ def popupmsg(msg, title, terminate, timeout): #This is the universal popupmsg fu
 
     popup.mainloop()
 
-### SUPPORT CLASS FOR GUI ### - This is used to dynamically create the buttons, the idea was by ---.
+### SUPPORT CLASS FOR GUI ### - This is used to dynamically create the buttons.
 class ButtonClass():
     def __init__(self, coin, root):
         self.name = coin
