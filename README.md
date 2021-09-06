@@ -1,5 +1,5 @@
 # Cryptcoin
-A very stable project written in Python 3 on collecting and displaying cryptocurrency prices with a dynamic GUI and price notification options.
+A very stable project written in Python 3 on collecting and displaying cryptocurrency prices with a dynamic GUI and price notification options. This was created for the Year 12 Software Design and Development final project task.
 
 ## Features
 - Modular design
